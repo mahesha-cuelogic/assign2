@@ -1,0 +1,98 @@
+*{
+
+    font-family: Quicksand;
+}
+body{
+   
+   
+    font-size: 16px;
+
+}
+header{
+   
+}
+
+.sect1{
+    background-image: url(/home/mahesh/Desktop/assign/code/Assets/banner-img.png);
+    background-position: center; 
+    height: 700px;
+}
+.sect2{
+    background-color: white;
+    height: 700px;
+
+}
+header a{
+    margin-top: 0px;
+    padding-top:0;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding-right: 52px;
+    padding-top: 27px;
+    float : left;
+}
+header a:hover{
+    color: rgb(153, 204, 0);
+}
+.logo{ 
+    position: absolute;
+
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-left: 175px;
+    margin-top: -25px;
+    background-color: rgba(0, 0, 0, 0.3);
+   
+    padding: 25px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+   
+}   
+ul{
+   
+    margin-left: 600px;
+}
+header li{
+    
+    display: inline;
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+   
+}
+.sign{
+    width: 95px;
+    height: 90px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: #a2c73c;
+    border-radius : 20px;
+}
+.banner{
+    
+  padding-top: 160px;
+  padding-top: 230px;
+  color: azure;
+  font-size: 35px;
+}
+.button{
+    text-decoration: none;
+    height: 66px;
+    width: 560px;
+    padding-left: 188px;
+    padding-right: 188px;
+    color:white;
+    background-color: #a2c73c;
+    border-radius: 30px;
+
+
+}
