@@ -14,7 +14,7 @@ header{
 
 .sect1{
     background-image: url(/home/mahesh/Desktop/assign/code/Assets/banner-img.png);
-  
+    background-position: center; 
     height: 700px;
 }
 header a{
@@ -31,15 +31,15 @@ header a:hover{
     color: rgb(153, 204, 0);
 }
 .logo{ 
-    position: absolute;
-
+    z-index: 1;
+    position: fixed;
     float: left;
     height: 70px;
     width: 70px;
     margin-left: 175px;
     margin-top: -25px;
     background-color: rgba(0, 0, 0, 0.3);
-   
+    
     padding: 25px;
     padding-bottom: 50px;
     border-radius: 15px;
@@ -55,10 +55,11 @@ header li{
 
 }
 nav{
+    z-index: 1000;
     position: fixed;
     width: 100%;
     height: 70px;
-    z-index: 0;
+
     background-color: rgba(0, 0, 0, 0.3);
    
 }
@@ -101,7 +102,8 @@ nav{
 
     padding: 225px;
     margin: 0px;
-  padding-top : 55px;
+  padding-top : 111px;
+    margin-left: 100px;
 
   
   }
@@ -130,7 +132,7 @@ nav{
   background-color: #a2c73c;
   }
   #li3{
-      background-color: #075daa
+      background-color: #075daa;
   }
   #li7{
     background-color: #4494d1;
@@ -145,3 +147,58 @@ nav{
       width: 50px;
       
   }
+  .sect3{
+      height: 538px;
+      background-color: #0072bc;
+      color: white;
+  }
+  .sect3 .head1{
+
+      padding-top: 88px;
+      color: white;
+      padding-bottom: 50px;
+
+  }
+  .button2{
+    font-size:35px; 
+    padding-top: 130px;
+    
+  }
+  
+  .sect4{
+    
+      background-color: white;
+      height: 1000px;
+      margin: auto;
+     
+  }
+
+  .sect4 div ul{
+       
+      list-style: none;
+      margin-top: 100px;
+  }
+  .sect4 div ul li{
+      float: left;
+      width: 370px;
+      height: 440px;
+      
+  }
+  .text{
+      padding-bottom: 50px;
+  }
+.whitebutton{
+    text-decoration: none;
+    background-color: white;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left: 50px;
+   padding-right: 50px;
+    width: 256;
+    height: 50;
+    color: #0072bc;
+    border-style: solid;
+   border-color:#a2c73c;
+   border-width: 2px;
+    border-radius: 30px;
+}
