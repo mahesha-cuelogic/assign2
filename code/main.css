@@ -14,13 +14,8 @@ header{
 
 .sect1{
     background-image: url(/home/mahesh/Desktop/assign/code/Assets/banner-img.png);
-    background-position: center; 
+  
     height: 700px;
-}
-.sect2{
-    background-color: white;
-    height: 700px;
-
 }
 header a{
     margin-top: 0px;
@@ -50,7 +45,7 @@ header a:hover{
     border-radius: 15px;
    
 }   
-ul{
+header ul{
    
     margin-left: 600px;
 }
@@ -96,3 +91,57 @@ nav{
 
 
 }
+
+.sect2{
+    background-color: white;
+    height: 1000px;
+
+}
+.sect2 div{ 
+
+    padding: 225px;
+    margin: 0px;
+  padding-top : 55px;
+
+  
+  }
+  .sect2 div ul {
+     
+     
+     list-style: none;
+    
+  }
+  .sect2 div ul li{
+      padding: 0px;
+      margin: 0px;
+      height: 266px;
+      width: 266px;
+      float: left;
+      text-align: center;
+   
+      
+  }
+  .sect2 div ul li img{
+    height: 266px;
+    width: 266px;
+
+  }
+  #li1{
+  background-color: #a2c73c;
+  }
+  #li3{
+      background-color: #075daa
+  }
+  #li7{
+    background-color: #4494d1;
+}
+#li9{
+    background-color:#0eb049 ;
+}
+  .sect2 div ul li .mid{
+      padding-top: 56px;
+      text-align: center;
+      height: 50px;
+      width: 50px;
+      
+  }
