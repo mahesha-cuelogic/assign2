@@ -31,15 +31,15 @@ header a:hover{
     color: rgb(153, 204, 0);
 }
 .logo{ 
-    z-index: 1;
+    z-index: 1000;
     position: fixed;
     float: left;
     height: 70px;
     width: 70px;
     margin-left: 175px;
     margin-top: -25px;
+  
     background-color: rgba(0, 0, 0, 0.3);
-    
     padding: 25px;
     padding-bottom: 50px;
     border-radius: 15px;
@@ -55,7 +55,7 @@ header li{
 
 }
 nav{
-    z-index: 1000;
+    z-index: 1;
     position: fixed;
     width: 100%;
     height: 70px;
@@ -75,7 +75,7 @@ nav{
 }
 .banner{
     
-  padding-top: 160px;
+ 
   padding-top: 230px;
   color: azure;
   font-size: 35px;
@@ -186,6 +186,7 @@ nav{
   }
   .text{
       padding-bottom: 50px;
+  
   }
 .whitebutton{
     text-decoration: none;
@@ -201,4 +202,61 @@ nav{
    border-color:#a2c73c;
    border-width: 2px;
     border-radius: 30px;
+}
+.whitebutton:hover{
+    background-color:  #7fa810;
+}
+footer{
+    background-color: #0f151a;
+    width: 100%;
+    height: 365px;
+    color:#3e6485;
+}
+.logo2{
+    padding-top: 50px;
+    padding-left: 457px;
+}
+
+.footer1 ul{
+    list-style: none;
+    float: right;
+    padding-top: 55px;
+    padding-right: 130px;
+    
+}
+
+.footer1 ul li{
+    float: left;
+    padding-right: 25px;
+}
+
+.footer2 ul{
+    
+    text-decoration: none;
+    list-style: none;
+   padding-top: 115px;
+   padding-left: 35px;
+
+}
+.footer2 ul div{
+    float: left;
+}
+.footer2 ul li a:hover{
+    color:  #7fa810;
+}
+.footer2 ul li a{
+    text-decoration: none;
+    color:#3e6485;
+}
+footer div{
+    float:block;
+}
+.footer3{
+
+    background-color: #0f151a;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+ 
+
 }
