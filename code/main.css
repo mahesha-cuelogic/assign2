@@ -8,15 +8,7 @@ body{
     font-size: 16px;
 
 }
-header{
-   
-}
 
-.sect1{
-    background-image: url(/home/mahesh/Desktop/assign/code/Assets/banner-img.png);
-    background-position: center; 
-    height: 700px;
-}
 header a{
     margin-top: 0px;
     padding-top:0;
@@ -30,21 +22,6 @@ header a{
 header a:hover{
     color: rgb(153, 204, 0);
 }
-.logo{ 
-    z-index: 1000;
-    position: fixed;
-    float: left;
-    height: 70px;
-    width: 70px;
-    margin-left: 175px;
-    margin-top: -25px;
-  
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 25px;
-    padding-bottom: 50px;
-    border-radius: 15px;
-   
-}   
 header ul{
    
     margin-left: 600px;
@@ -54,13 +31,47 @@ header li{
     display: inline;
 
 }
+
+.logo{ 
+    z-index: 100;
+    position: fixed;
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-left: 175px;
+    margin-top: -25px;
+  
+   
+    padding: 25px;
+   
+   
+}   
+.logo::after{
+    content: "";
+    position: absolute;
+    top: 79%;
+    left: 12%;
+    border-top: 41px solid rgba(0, 0, 0, 0.4);
+    border-right: 93px solid rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   z-index: -1;
+}
+/*
+.myCanvas{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+    border-radius: 15px;
+    margin-top: 69px;
+    margin-left: 175px;
+}*/
 nav{
-    z-index: 1;
+    z-index: 10;
     position: fixed;
     width: 100%;
     height: 70px;
 
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
    
 }
 .sign{
@@ -72,6 +83,12 @@ nav{
     padding-right:20px;
     background-color: #a2c73c;
     border-radius : 20px;
+}
+
+.sect1{
+    background-image: url(/home/mahesh/Desktop/assign/code/Assets/banner-img.png);
+    background-position: center; 
+    height: 700px;
 }
 .banner{
     
