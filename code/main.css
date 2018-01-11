@@ -86,7 +86,7 @@
   }
   
   .sect1 {
-    background-image: url(/home/mahesh/Desktop/assign/code/Assets/banner-img.png);
+    background-image: url(./Assets/banner-img.png);
     background-position: center;
     height: 700px;
   }
