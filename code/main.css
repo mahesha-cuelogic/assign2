@@ -1,3 +1,4 @@
+/* global */
 * {
     font-family: Quicksand;
   }
@@ -5,7 +6,7 @@
   body {
     font-size: 16px;
   }
-  
+  /* header ----------------------------------------------------------------------------------------------------*/
   header a {
     margin-top: 0px;
     padding-top: 0;
@@ -52,16 +53,6 @@
     z-index: -1;
   }
   
-  
-  /*
-  .myCanvas{
-      background-color: rgba(0, 0, 0, 0.3);
-      padding-bottom: 50px;
-      border-radius: 15px;
-      margin-top: 69px;
-      margin-left: 175px;
-  }*/
-  
   nav {
     z-index: 10;
     position: fixed;
@@ -84,7 +75,7 @@
   .sign:hover {
     color: black;
   }
-  
+  /* section 1 ------------------------------------------------------------------------------------------------*/
   .sect1 {
     background-image: url(./Assets/banner-img.png);
     background-position: center;
@@ -109,7 +100,7 @@
     background-color: #a2c73c;
     border-radius: 30px;
   }
-  
+  /* section 2---------------------------------------------------------------------------------------- */
   .sect2 {
     background-color: white;
     height: 1000px;
@@ -120,7 +111,7 @@
     padding: 225px;
     margin: 0px;
     padding-top: 111px;
-    margin-left: 100px;
+    margin-left: 20px;
   }
   
   .sect2 div ul {
@@ -224,7 +215,7 @@
     height: 50px;
     width: 50px;
   }
-  
+  /* sectio 3--------------------------------------------------------------------------------------------------- */
   .sect3 {
     height: 538px;
     background-color: #0072bc;
@@ -241,7 +232,7 @@
     font-size: 35px;
     padding-top: 99px;
   }
-  
+  /* section 4 --------------------------------------------------------------------------------------------------- */
   .sect4 {
     background-color: white;
     height: 1000px;
@@ -293,16 +284,17 @@
   
   .logo2 {
     padding-top: 50px;
-    padding-left: 457px;
+    padding-left: 380px;
+    
   }
-  
+/* footer ------------------------------------------------------------------------------------------------------- */
   .footer1 ul {
     list-style: none;
     float: right;
     padding-top: 55px;
     padding-right: 130px;
   }
-  
+
   .footer1 ul li {
     float: left;
     padding-right: 25px;
@@ -317,6 +309,7 @@
   
   .footer2 ul div {
     float: left;
+   
   }
   
   .footer2 ul li a:hover {
